@@ -1,0 +1,452 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Poppins';
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+header{
+  padding: 0px 0px 20px 0px;
+  position: fixed;
+  z-index: 111;
+  width: 100%;
+}
+header nav{
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191919;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #282828;
+}
+#nav-up{
+  padding-top: 20px;
+  background-color: black;
+}
+#logo a{
+  padding: 0px 15px;
+}
+.navlinks ul{
+  display: flex;
+  gap: 75px;
+}
+.navlinks ul li {
+  list-style: none;
+}
+.sidenav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  right:0; 
+  overflow: hidden;
+  background-color: #111;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block; 
+}
+#up-showcase{
+  padding:150px 0px 0px 0px;
+}
+#showcase{
+  width:75%;
+  margin: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border: 1px solid #282828;
+  background-color: #191919;
+}
+#down-showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 30px 20px 30px;
+  gap: 45px;
+}
+#jobtitle h4{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 2px solid #282828;
+}
+#intro h1{
+  font-size: 45px;
+  font-weight: 400;
+  background-color: rgb(35, 33, 33); 
+}
+#intro h6{
+  font-size: 15px;
+  font-weight: 400;
+  width: 550px;
+  color: rgb(160, 160, 160);
+
+}
+#photo {
+  display: block;
+  margin: auto 0px;
+  overflow: hidden;
+  border-radius: 50%;
+  /* height: 500px; */
+}
+#photo img {
+  mix-blend-mode: lighten;
+  /* Uses to blend the img background and division background */
+  text-align: center;
+}
+.up-exp{
+  padding:50px 0px;
+}
+.experience{
+  width:75%;
+  padding: 10px 10px;
+  margin: auto;
+  background-color: #191919;
+  border-radius: 10px;
+  border: 1px solid #282828
+}
+.section-title h1{
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 45px;
+  /* background-color: rgb(20, 19, 19); */
+}
+.exp-detail{
+  display: flex;
+  padding: 20px 10px;
+}
+.company-name {
+  padding: 10px 0px;
+  border-right: 2px solid #282828;
+}
+.company-name h1 {
+  font-size: 20px;
+  font-weight: 400;
+  width:325px;
+}
+.company-name p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(175, 175, 175);
+  padding-top: 5px; 
+}
+.job-des {
+  padding: 20px 20px;
+  color: rgb(175, 175, 175);
+}
+.job-des p {
+  padding-bottom: 15px;
+}
+
+.job-des a {
+  background-color: whitesmoke;
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.job-des a i {
+  rotate: 45deg;
+  transition: 0.5s;
+}
+
+.job-des a:hover i {
+  rotate: 90deg;
+}
+
+/* .job-des p {
+  padding-bottom: 15px;
+}  */
+#skill-main{
+  width:75%;
+  padding: 10px 10px;
+  margin: auto;
+  /* overflow: hidden; */
+  background-color: #191919;
+  border-radius: 10px;
+  border: 1px solid #282828
+}
+.skillset-div {
+  /* flex: 0.60; */
+  border: 1px solid #282828;
+  border-radius: 5px;
+  padding: 20px 30px;
+  background-color: #191919;
+}
+
+.skillset-div h1{
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+.skillset-div ul{
+  display: flex;
+  padding: 10px 0px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.skillset-div li{
+  list-style: none;
+  border: 1px solid #282828;
+  padding: 5px;
+  padding-right: 20px;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 15px;
+  color: rgb(160, 160, 160);
+}
+.logo{
+  background-color: white;
+  height:30px;
+  width: 30px;
+  border-radius: 5px;
+  padding: 2px;
+  object-fit: cover;
+}
+#project-div{
+  width:75%;
+  padding:20px 0px;
+  margin: auto;
+}
+#project-div h1{
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+#all-projects {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+.project-des {
+  width: 24%;
+  background-color: #191919da;
+  border-radius: 10px;
+  border: 1px solid #282828;
+  padding: 20px 22px 30px 25px;
+}
+.project-des i {
+  font-size: 35px;
+  padding: 20px 8px;
+  color: rgb(175, 175, 175);
+}
+
+.project-des h5 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 0px;
+}
+
+.project-des p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: justify;
+  color: rgb(175, 175, 175);
+}
+#react-icon{
+  width: 25px;
+  height: 25px;
+  
+}
+footer{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+#footer-name h1{
+  margin-top: 100px;
+  font-weight: 200;
+  font-size: 35px;
+  border-top: 2px solid #282828;
+  text-align: center;
+  width: 420px;
+}
+#footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding:20px 0px 70px 0px;
+}
+
+#footer-copy {
+  text-align: center;
+  padding: 20px 0px 70px 0px;
+}
+
+#footer-copy h1 {
+  font-weight: 200;
+  font-size: 15px;
+  color: rgb(175, 175, 175);
+}
+/* Resnponsive*/
+@media only screen and (max-width: 350px){
+  header nav{
+    width: 85%;
+    padding: 8px 11px;
+  }
+  .navlinks ul{
+    font-size: 8px;
+    gap: 5px;
+  }
+  /* #logo a{
+    font-size: 5px;
+    margin-left: 0px;
+  } */
+}
+@media only screen and (max-width: 800px){
+  header{
+    position: static; 
+    padding-bottom: 15px;
+  }
+  header nav{
+    width: 85%;
+    padding: 8px 11px;
+  }
+  #nav-up {
+    padding-top: 15px;
+  }
+  #logo {
+    padding: 0px;
+  }
+  #logo a{
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  .navlinks ul{
+    gap: 25px;
+  }
+  #up-showcase {
+    padding: 0px 0px 20px 0px;
+  }
+  #showcase {
+    width: 85%;
+    flex-direction: column-reverse;
+    
+  }
+  #down-showcase {
+    padding: 10px 10px 20px 10px;
+    gap: 10px;
+ }
+ #photo>div {
+  padding: 0px;
+  }
+
+#photo img {
+  height:220px;
+  width: 220px;
+  display: block;
+  margin: auto;
+}
+#jobtitle h4 {
+  font-size: 13px;
+}
+
+#intro h1 {
+  font-size: 20px;
+}
+
+#intro h6 {
+  font-size: 13px;
+  text-align: justify;
+  width: auto;
+}
+.up-exp {
+  padding: 30px 0px;
+}
+
+.experience {
+  width: 85%;
+}
+.section-title h1{
+  font-size:20px;
+}
+.exp-detail{
+  flex-direction: column;
+  padding: 10px 0px;
+}
+.company-name {
+  padding: 0px 10px 3px 10px;
+  border: none;
+}
+
+.job-des {
+  padding: 0px 10px 10px 10px;
+  border: none;
+}
+.company-name h1 {
+  font-size: 15px;
+  width: auto;
+}
+
+.company-name p {
+
+  font-size: 12px;
+}
+.job-des p {
+  font-size: 12px;
+  text-align: justify;
+}
+.job-des h5 {
+  font-size: 12px;
+}
+#skill-main {
+  width: 85%;
+}
+#project-div .section-title h1{
+  font-size:20px;
+}
+#all-projects{
+  flex-direction: column;
+  padding: 10px 10px;
+  gap: 25px;
+}
+.project-des {
+  width: auto;
+}
+#footer-name {
+  padding: 50px 0px 0px 0px;
+}
+
+#footer-name h1 {
+  width: auto;
+  font-size: 20px;
+}
+#footer-copy h1 {
+  font-size: 13px;
+}
+}
+@media only screen and (min-width: 850px) and (max-width: 1025px) {
+  header nav{
+    width: 85%;
+  }
+  #photo{
+    display: none;
+  }
+}
