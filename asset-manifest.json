@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.160fce13.css",
+    "main.js": "/Portfolio/static/js/main.d725276f.js",
+    "static/js/453.0a9f4b6c.chunk.js": "/Portfolio/static/js/453.0a9f4b6c.chunk.js",
+    "static/media/Afreen $haik.pdf": "/Portfolio/static/media/Afreen $haik.5339ea244017ee6a4c78.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.160fce13.css.map": "/Portfolio/static/css/main.160fce13.css.map",
+    "main.d725276f.js.map": "/Portfolio/static/js/main.d725276f.js.map",
+    "453.0a9f4b6c.chunk.js.map": "/Portfolio/static/js/453.0a9f4b6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.160fce13.css",
+    "static/js/main.d725276f.js"
+  ]
+}
